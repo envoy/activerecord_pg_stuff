@@ -1,5 +1,5 @@
 Bundler.require(:test)
-require 'rspec/autorun'
+require 'rspec'
 require 'logger'
 require File.expand_path("../../lib/activerecord_pg_stuff", __FILE__)
 
