@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'activerecord_pg_stuff/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "activerecord_pg_stuff"
+  spec.name          = "envoy-activerecord_pg_stuff"
   spec.version       = ActiveRecordPgStuff::VERSION
   spec.authors       = ["Dmitry Galinsky"]
   spec.email         = ["dima.exe@gmail.com"]
